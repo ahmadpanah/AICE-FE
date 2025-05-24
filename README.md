@@ -26,12 +26,12 @@ This implementation allows for experimentation with AICE-FE on various IoT intru
 aice-fe-iot-ids/
 |-- data/
 | |-- BoT-IoT/
-| | |-- UNSW_2018_IoT_Botnet_Full5pc_1.csv (Example - Place your BoT-IoT CSVs here)
+| | |-- UNSW_2018_IoT_Botnet_Full5pc_1.csv
 | |-- WUSTL-EHMS-2020/
 | | |-- EHMS_Train.csv
 | | |-- EHMS_Test.csv
 | |-- MQTT-IoT-IDS2021/
-| | |-- mqtt_dataset.csv (Example - Place your MQTT dataset CSV here)
+| | |-- mqtt_dataset.csv
 |-- aice_fe_components.py # Core AAWS, ICSE, and AICEFEPreprocessor classes
 |-- data_loader_bot_iot.py # Data loading and preprocessing for BoT-IoT
 |-- data_loader_wustl_ehms.py # Data loading and preprocessing for WUSTL-EHMS-2020
@@ -143,7 +143,6 @@ The script will output performance metrics to the console and save a summary of 
 
 ## TODO / Potential Enhancements
 
-*   Implement MDA-Selected+StdScale and PCA comparison methods from the paper.
 *   Add MLP and SVM classifiers.
 *   More sophisticated handling of high-cardinality categorical features.
 *   Automated selection of categorical features for ICSE using MDA.
